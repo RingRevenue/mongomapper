@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.platform           = Gem::Platform::RUBY
   s.files              = Dir.glob("{bin,examples,lib,rails,test}/**/*") + %w[LICENSE UPGRADES README.rdoc]
 
-  s.add_dependency 'activesupport',           '>= 2.3.4'
-  s.add_dependency 'jnunemaker-validatable',  '~> 1.8.4'
-  s.add_dependency 'plucky',                  '~> 0.3.6'
+  s.add_dependency 'activesupport',            '>= 2.3.4'
+  s.add_dependency 'ringrevenue-validatable',  '~> 1.8.4'
+  s.add_dependency 'plucky',                   '~> 0.3.6'
 
   s.add_development_dependency 'json'
   s.add_development_dependency 'log_buddy'
